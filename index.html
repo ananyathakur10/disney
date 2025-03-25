@@ -349,13 +349,15 @@ font-size:30px;
 margin-left:850px;
 }
 
-#chau span h4
+#chau span a
 {
 background:#2f689b ;
-width:20%;
+width:40%;
 font-size:25px;
 border-radius:10px;
-margin-top:50px;
+margin-top:70px;
+color:white;
+margin-left:600px;
 
 }
 .movie
@@ -370,74 +372,6 @@ margin-top:-460px;
 
 
             }
-.movie .mickey
-{
-background-color:#b3d0ea  ;
-text-align:center;
-width:25%;
-margin-left:60px;
-padding:5px;
-overflow: hidden;
-
-border-radius: 15px;
-}
-#mickey h3
-{
-
-
-}
-
- .mickey h3 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            color: #003366;
-        }
-
-        .mickey p {
-            font-size: 1rem;
-            color: #555;
-            margin-bottom: 20px;
-        }
-  .mickey:hover {
-            transform: scale(1.05)}
-
-
-
-.movie .key
-{
-background-color:#b3d0ea  ;
-text-align:center;
-width:25%;
-margin-left:600px;
-padding:5px;
-overflow: hidden;
-margin-top:-680px;
-border-radius: 15px;
-
-}
-#mickey h3
-{
-
-
-}
-
- .key h3 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            color: #003366;
-        }
-
-        .key p {
-            font-size: 1rem;
-            color: #555;
-            margin-bottom: 20px;
-        }
-  .key:hover {
-            transform: scale(1.05)
-
-
-}
-
 
  .movie .anu
 {
@@ -565,7 +499,7 @@ color:white;
 @media only screen and (max-width: 600px)
  {
 
-		  body{background:pink;}
+		  body{background:pnk;}
 
  top {
             position: fixed;
@@ -662,101 +596,120 @@ font-size:20px;
 
 #card
 {
-background:red;
+
 margin-left:10px;
 margin-top:-640px;
 color:white;
 width:80%;
-height:400px;
+height:500px;
 
-padding:5px;
+padding:5px;}
 #card h1
 {
-margin-top:50px;
+margin-top:190px;
 margin-left:5px;
-width:4%;
+width:100%;
 }
 #card p
 {
-font-size:5px;
+font-size:15px;
 margin-top:10px;
 margin-left:4px;
-width:4%;
+width:100%;
 }
-.picture
-{
-margin-left:9px;
-margin-top:50px;
-
-}
-
 #minni
 {
-background:red;
-width:10%;
-margin-top:100px;
-color:white;
+
+width:90%;
+margin-top:-50px;
+
 margin-left:10px;
+
 
 }
 #minni h1
 {
-font-size:5px;
-margin-top:20px;
+font-size:25px;
+margin-top:-500px;
 
-width:7%;
+width:60%;
 text-align:center;
 padding:2px;
 border-radius:10px;
 }
 #minni p
 {
-background:red;
-font-size:5px;
+
+font-size:15px;
 margin-top:30px;
 }
 #minni h3
 {
-background:red;
-font-size:2px;
-width:10%;
+
+font-size:20px;
+width:50%;
 }
 #chart
 {
 margin-top:100px;
-
+width:100%;
 height:800px;
-background-image:url(images/anu.jpg); 
-
-background-size:cover;
 
 color:white;
 }
 
 .picture
 {
-margin-left:90px;
+margin-left:80px;
 margin-top:10px;
+width:50%;
+
 
 }
 #more
 {
 color:white;
 
-margin-top:-500px;
+margin-top:-900px;
 margin-left:500px;
-width:36%;
+width:50%;
+text-align:center;
+border-radius:10px;
+height:900px;
+}
+#more h1
+{
+background:#134cf0 ;
+font-size:30px;
+}
+#cha
+{
+margin-top:30px;
+height:1300px;
+
+
+color:white;
+}
+#more
+{
+
+margin-top:-100px;
+margin-left:70px;
+width:60%;
 text-align:center;
 border-radius:10px;
 }
 #more h1
 {
 background:#134cf0 ;
+font-size:20px;
+border-radius:10px;
+
 }
 #cha
 {
 margin-top:150px;
-height:800px;
+height:1500px;
 
 background-image:url(images/anu.jpg); 
 
@@ -765,8 +718,264 @@ background-size:cover;
 color:white;
 }
 
+@keyframes runbanner
+{
+0%{left:0%;}
+10%{left:0%;}
+
+20%{left:-19%;}
+30%{left:-19%;}
+
+40  %{left:-36%;}
+50%{left:-36%;}
+
+60%{left:-53%;}
+70%{left:-53%;}
+
+80%{left:-70%;}
+90%{left:-70%;}
+
+}
+
+#container
+{
+
+width:1000%;
+height:100px;
+margin-top:-20px;
+}
+
+.photo
+{
 
 
+position:relative;
+left:0px;
+top:-10px;
+animation:runbanner 15s infinite;
+width:10%;
+}
+#charu
+{
+margin-top:-1100px;
+height:500px;
+
+color:white;
+}
+#charu h2
+{
+color:white;
+width:10%;
+
+margin-left:800px;
+
+
+}
+#charu h1
+{
+margin-top:300px;
+font-size:2px;
+}
+.pic
+{
+margin-top:100px;
+margin-left:20px;
+width:50%;
+}
+#chau
+{
+margin-top:-850px;
+height:800px;
+
+
+color:white;
+}
+.park
+{
+margin-left:10px;
+float:left;
+background:red;
+width:50%;
+margin-top:20px;
+}
+#chau h4
+{
+width:60%;
+
+margin:auto;
+font-size:15px;
+padding:10px;
+text-align:center;
+margin-top:-10px;
+}
+
+#chau h3
+{
+border-radius:10px;
+float:none;
+background:#3f7fb9  ;
+width:30%;
+margin-top:40px;
+margin-left:270px;
+font-size:15px;
+text-align:center;
+}
+#chau p
+{
+font-size:10px;
+margin-left:250px;
+width:40%;
+
+}
+#chau  span h3
+{
+border-radius:10px;
+float:none;
+background:#3f7fb9  ;
+width:30%;
+margin-top:40px;
+margin-left:270px;
+font-size:15px;
+text-align:center;
+}
+#chau span  p
+{
+font-size:10px;
+margin-left:250px;
+width:40%;
+
+}
+#chau span a
+{
+background:#2f689b ;
+width:40%;
+font-size:15px;
+border-radius:10px;
+margin-top:800px;
+color:white;
+margin-left:20px;
+
+}
+
+.movie
+{
+color:white;
+
+height:2300px;
+margin-top:-460px;
+
+
+            }
+
+ .movie .anu
+{
+
+padding:30px;
+width:60%;
+
+float:left;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:70px;
+margin-top:60px;
+height:500px;
+text-align:center;
+
+}
+.movie .anu ol li
+{
+list-style:none;
+font-size:12px;
+}
+.movie .anu h3
+{
+text-align:center;
+margin-left:50px;
+font-size:20px;
+border-radius:10px;
+}
+
+.moti
+{
+color:white;
+
+height:2100px;
+margin-top:-460px;
+
+
+            }
+
+ .moti .ani
+{
+
+padding:30px;
+width:50%;
+
+float:left;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:90px;
+margin-top:60px;
+height:450px;
+text-align:center;
+
+}
+.moti .ani ol li
+{
+list-style:none;
+font-size:12px;
+}
+.moti.ani h3
+{
+text-align:center;
+margin-left:50px;
+font-size:20px;
+border-radius:10px;
+}
+
+ .footer {
+        background-color:  #003366;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer div {
+        margin: 5px;
+    }
+    footer h3 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    footer ul {
+color:white;
+        list-style: none;
+        padding: 0;
+    }
+    footer ul li {
+        margin: 5px 0;
+color:white;
+    }
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    footer ul li a:hover {
+        color: white;
+    }
+    footer p {
+        font-size: 14px;
+        margin-top: 20px;
+        width: 100%;
+
+    }
 </style>
 
 
@@ -837,7 +1046,7 @@ Your browser does not support the video tag.
 
 </div>
 <div id="charu">
-<h1 style="color:white; text-align:center;font-size:50px;" > ✨ Explore the Magical World of Disney ✨ </h1>
+<h1 style="color:white; text-align:center;font-size:30px;" > ✨ Explore the Magical World of Disney ✨ </h1>
 <div style="border-radius:10px;margin:auto; background:;height:900px;width:50%;overflow:hidden;">
 
   <div id="container">
@@ -852,7 +1061,7 @@ Your browser does not support the video tag.
 <p>Step into the enchanting universe of Disney, where fairy tales come to life, dreams turn into reality, and magic is everywhere! Whether you're exploring the breathtaking Disney theme parks, reliving classic Disney movies, or meeting your favorite characters, the adventure never ends.</p>
 </div> 
 <div id="chau">
-<h1 style="color:white; text-align:center;font-size:50px;" > 🎡 Discover the Disney Parks </h1>
+<h1 style="color:white; text-align:center;font-size:30px;" > 🎡 Discover the Disney Parks </h1>
 <h4>From the iconic Cinderella’s Castle in Walt Disney World to the thrilling adventures of Star Wars: Galaxy’s Edge, every Disney park is filled with magic. Explore:   </h4>
 <img src="images/dd14.jpg" class="park">
 <img src="images/dd13.jpg" class="park">
@@ -866,11 +1075,13 @@ Your browser does not support the video tag.
 
 </span>
 <span>
-<h4 > Explore more disney parks </h4>
+<a href="park.html"> Explore more disney parks</a>
+
+
 </span>
 </div>
 <div class="movie">
-<h1 style="color:white; text-align:center;font-size:50px;" >🎥 Step Into the World of Disney Movies  </h1>
+<h1 style="color:white; text-align:center;font-size:30px;" >🎥 Step Into the World of Disney Movies  </h1>
 <h4 style="text-align:center;">From the iconic Cinderella’s Castle in Walt Disney World to the thrilling adventures of Star Wars: Galaxy’s Edge, every Disney park is filled with magic. Explore:   </h4>
 <div class="anu">
 <img src="images/mov.jpg" class="tt">
@@ -907,7 +1118,7 @@ Your browser does not support the video tag.
 
 
 <div class="moti">
-<h1 style="color:white; text-align:center;font-size:50px;" >✨ Disney Magic: Shop Your Favorites! 🛍️ </h1>
+<h1 style="color:white; text-align:center;font-size:30px;" >✨ Disney Magic: Shop Your Favorites! 🛍️ </h1>
 <h4 style="text-align:center;">From the iconic Cinderella’s Castle in Walt Disney World to the thrilling adventures of Star Wars: Galaxy’s Edge, every Disney park is filled with magic. Explore:   </h4>
 <div class="ani">
 <img src="images/cloth2.jpg" class="tt">
