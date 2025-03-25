@@ -1,0 +1,502 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+
+
+<style>
+ top {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #003366;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 100;
+height:40px;
+
+        }
+
+        top a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0 15px;
+            transition: background 0.3s;
+        }
+
+        top a:hover {
+            background-color:#5987af ;
+            border-radius: 4px;
+        }
+
+.dd
+{
+margin-right:1200px;
+flex:right;
+margin-top:-50px;
+padding:10px;
+}
+
+#myvideo
+{
+width:100%;
+
+}
+
+
+
+
+
+#main
+{
+ width:100%; 
+height:400px;
+
+
+z-index:-1;
+
+}
+#myheading 
+{
+
+color:white;
+margin-top:150px;
+
+margin-left:-580px;
+font-size:40px;}
+#myheading h1
+{
+text-align:center;
+margin-top:-100px;
+
+}
+
+#myheading h2
+{
+font-size:20px;
+margin-left:750px;
+margin-top:-50px;
+
+}
+#more
+{
+color:white;
+
+margin-top:-100px;
+margin-left:500px;
+width:36%;
+text-align:center;
+border-radius:10px;
+}
+#more h1
+{
+background:#134cf0 ;
+}
+#cha
+{
+margin-top:500px;
+height:800px;
+
+background-image:url(images/anu.jpg); 
+
+background-size:cover;
+
+color:white;
+}
+.pic
+{
+margin-top:100px;
+margin-left:200px;
+}
+#cha p 
+{
+margin-left:200px;
+font-size:20px;
+
+}
+.movie
+{background-image:url(images/anu.jpg); 
+
+background-size:cover;
+
+color:white;
+
+height:1100px;
+margin-top:270px;
+
+
+            }
+ .movie .anu
+{
+padding:30px;
+width:20%;
+height:auto;
+float:left;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:90px;
+margin-top:60px;
+height:350px;
+text-align:center;
+
+}
+.movie .anu ol li
+{
+list-style:none;
+font-size:15px;
+}
+.movie .anu h3
+{
+text-align:center;
+margin-left:50px;
+font-size:30px;
+border-radius:10px;
+}
+
+
+.anu:hover {
+            transform: scale(1.05)}
+
+.movie span p
+{
+margin-left:200px;
+font-size:25px;
+
+}
+.mov
+{background-image:url(images/anu.jpg); 
+
+background-size:cover;
+
+color:white;
+
+height:800px;
+margin-top:-150px;
+
+
+            }
+ .mov .ant
+{
+padding:30px;
+width:20%;
+height:auto;
+float:left;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:90px;
+margin-top:60px;
+height:350px;
+text-align:center;
+
+}
+.mov .ant ol li
+{
+list-style:none;
+font-size:15px;
+}
+.mov .ant h3
+{
+text-align:center;
+margin-left:50px;
+font-size:30px;
+border-radius:10px;
+}
+
+
+.ant:hover {
+            transform: scale(1.05)}
+.mot
+{background-image:url(images/anu.jpg); 
+
+background-size:cover;
+
+color:white;
+
+height:1100px;
+margin-top:270px;
+
+
+            }
+ .mot .an
+{
+padding:30px;
+width:20%;
+height:auto;
+float:left;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:90px;
+margin-top:60px;
+height:350px;
+text-align:center;
+
+}
+.mot .an ol li
+{
+list-style:none;
+font-size:15px;
+}
+.mot .ant h3
+{
+text-align:center;
+margin-left:50px;
+font-size:30px;
+border-radius:10px;
+}
+
+
+.ant:hover {
+            transform: scale(1.05)}
+
+.mop
+{background-image:url(images/anu.jpg); 
+
+background-size:cover;
+
+color:white;
+
+height:1100px;
+margin-top:270px;
+
+
+            }
+ .mop .ap
+{
+padding:30px;
+width:20%;
+height:auto;
+float:left;
+text-align:center;
+border:none;
+text-transform:capitalize;
+letter-spacing:0.23px;
+margin-left:90px;
+margin-top:60px;
+height:350px;
+text-align:center;
+
+}
+.mop .ap ol li
+{
+list-style:none;
+font-size:15px;
+}
+.mop .ap h3
+{
+text-align:center;
+margin-left:50px;
+font-size:30px;
+border-radius:10px;
+}
+
+
+.ap:hover {
+            transform: scale(1.05)}
+.footer {
+        background-color:  #003366;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer div {
+        margin: 10px;
+    }
+    footer h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    footer ul {
+color:white;
+        list-style: none;
+        padding: 0;
+    }
+    footer ul li {
+        margin: 5px 0;
+color:white;
+    }
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    footer ul li a:hover {
+        color: white;
+    }
+    footer p {
+        font-size: 14px;
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+</style>
+
+
+<body>
+<top>
+        <a href="index.html">🏰Home</a>
+     
+        <a href="#">🎬Movies</a>
+        <a href="park.html">🎡Theme Parks</a>
+        <a href="shop.html">🛍️Shop</a>
+<img src="images/logo2.png" class="dd">
+
+    </top>
+<div id="main">
+<video id="myvideo" autoplay loop muted>
+
+   
+    <source src="video/new new.mp4" type="video/mp4" class="video">
+
+
+Your browser does not support the video tag.
+</video>
+ </div>
+ <div id="myheading">
+
+<h1>MOANA 2   </h1>
+<h2> The adventure continues.Moana2 is NOW available pn Disney+!</h2>
+</div>
+<div class="movie">
+<h1 style="color:white; text-align:center;font-size:50px;" >Explore Disney+</h1>
+<h4 style="text-align:center;">Disney+ is the ultimate streaming destination for entertainment from Disney, Pixar, Marvel, Star Wars, and National Geographic.
+  </h4>
+<span> <p> Recent Releases </p></span>
+<div class="anu">
+<img src="images/dd56.jpg" class="tt">
+<p style="color:gray"> Disney</p>
+<h3 style="text-indent:0;text-align:center;background:#3a7a8c ; width:55%;padding:3px;" > Dream  </h3>
+<ol>
+<li>the studio inside Riley's mind where dreams really do come true.</li>
+<li></li>
+</ol>
+</div>
+<div class="anu">
+<img src="images/dd55.jpg" class="tt">
+<p style="color:gray"> Disney</p>
+<h3 style="text-indent:0;text-align:center;background:#3a7a8c;padding:3px;" > Sofia the first</h3>
+<ol>
+<li>a little girl who lives a rather ordinary life</li>
+<li></li>
+</ol>
+</div>
+<div class="anu">
+<img src="images/dd57.jpg" class="tt">
+<p style="color:gray"> Disney</p>
+<h3 style="text-indent:0;text-align:center;background:#3a7a8c;padding:3px;" >Goosbumps</h3>
+<ol>
+<li>five high schoolers who investigate a tragic death</li>
+<li></li>
+<li> </li>
+
+</ol>
+</div>
+
+
+</div>
+
+<div class="mov">
+<h1 style="color:white; text-align:center;font-size:50px;" ><h4 style="text-align:center;">   </h4>
+<div class="ant">
+<img src="images/mov.jpg" class="tt">
+<p style="color:gray"> Disney</p>
+<h3 style="text-indent:0;text-align:center;background:#3a7a8c ; width:55%;padding:3px;" > WISH</h3>
+<ol>
+<li>Asha, a 17-year-old girl, makes a wish on a star.</li>
+<li></li>
+</ol>
+</div>
+<div class="ant">
+<img src="images/mov4.jpg" class="tt">
+<p style="color:gray"> Disney</p>
+<h3 style="text-indent:0;text-align:center;background:#3a7a8c;padding:3px;" > WIN OR LOSS</h3>
+<ol>
+<li>a comedy-drama miniseries about a middle school softball team,</li>
+<li></li>
+</ol>
+</div>
+<div class="ant">
+<img src="images/mov3.jpg" class="tt">
+<p style="color:gray"> Disney</p>
+<h3 style="text-indent:0;text-align:center;background:#3a7a8c;padding:3px;" > MOANA 2</h3>
+<ol>
+<li>Moana journeys to the far seas of Oceania after receiving an unexpected call</li>
+<li></li>
+<li> </li>
+
+</ol>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+<div class="footer ">
+<div>
+        <h3>About Disney</h3>
+        <ul>
+            <li>Disney+ Streaming</li>
+            <li>Parks & Resorts</li>
+            <li>Movies & TV</li>
+            <li>Shop Disney</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h3>Help & Support</h3>
+        <ul style="color:white;">
+            <li>Customer Support</li>
+            <li>FAQs</li>
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h3>Follow Us</h3>
+        <ul>
+            <li >Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+        </ul>
+    </div>
+    
+    <div>
+          <img src="images/logo2.png" class="fot">
+<p> "© 2025 The Walt Disney Company. Bringing magic to life every day!"</p>
+        </div>
+     </div>
+</div>
+</div>
+
+
+
+</body>
+
+</html>
+
